@@ -56,7 +56,7 @@ public class Login_testcase1 extends Test_class {
 		try {
 			if (result.getStatus() == ITestResult.SUCCESS) {
 
-				notes = "Executed successfully11";
+				notes = "Executed successfully-from jenkins";
 				testresult = TestLinkAPIResults.TEST_PASSED;
 				// testlink_configuration.updateResults(TestcaseID, null,testresult, notes);
 			}
@@ -64,7 +64,7 @@ public class Login_testcase1 extends Test_class {
 			else if (result.getStatus() == ITestResult.FAILURE) {
 
 				System.out.println("Log Message:: @AfterMethod: Method-" + "- has Failed");
-				notes = "Execution Failed11";
+				notes = "Execution Failedfrom jenkins";
 				testresult = TestLinkAPIResults.TEST_FAILED;
 				// testlink_configuration.updateResults("testcaseID, null,testresult, notes);
 				
