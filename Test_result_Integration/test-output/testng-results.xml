@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67964" started-at="2020-12-11T15:06:05Z" finished-at="2020-12-11T15:07:13Z">
+  <suite name="Default suite" duration-ms="248305" started-at="2020-12-18T04:39:57Z" finished-at="2020-12-18T04:44:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67964" started-at="2020-12-11T15:06:05Z" finished-at="2020-12-11T15:07:13Z">
+    <test name="Default test" duration-ms="248305" started-at="2020-12-18T04:39:57Z" finished-at="2020-12-18T04:44:05Z">
       <class name="testcases.Login_testcase1">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="initialize" is-config="true" duration-ms="10792" started-at="2020-12-11T15:06:05Z" finished-at="2020-12-11T15:06:16Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="initialize" is-config="true" duration-ms="33944" started-at="2020-12-18T04:39:57Z" finished-at="2020-12-18T04:40:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="testSetup" is-config="true" duration-ms="5" started-at="2020-12-11T15:06:16Z" finished-at="2020-12-11T15:06:16Z">
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="testSetup" is-config="true" duration-ms="6" started-at="2020-12-18T04:40:31Z" finished-at="2020-12-18T04:40:31Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="Login()[pri:1, instance:testcases.Login_testcase1@3ecd23d9]" name="Login" duration-ms="1865" started-at="2020-12-11T15:06:16Z" description="DP-62" finished-at="2020-12-11T15:06:18Z">
+        <test-method status="PASS" signature="Login()[pri:1, instance:testcases.Login_testcase1@3ecd23d9]" name="Login" duration-ms="5050" started-at="2020-12-18T04:40:31Z" description="DP-62" finished-at="2020-12-18T04:40:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="writeResult(org.testng.ITestResult)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="writeResult" is-config="true" duration-ms="27647" started-at="2020-12-11T15:06:18Z" finished-at="2020-12-11T15:06:46Z">
+        <test-method status="PASS" signature="writeResult(org.testng.ITestResult)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="writeResult" is-config="true" duration-ms="126741" started-at="2020-12-18T04:40:36Z" finished-at="2020-12-18T04:42:43Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeResult -->
-        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="testSetup" is-config="true" duration-ms="1" started-at="2020-12-11T15:06:46Z" finished-at="2020-12-11T15:06:46Z">
+        <test-method status="PASS" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="testSetup" is-config="true" duration-ms="1" started-at="2020-12-18T04:42:43Z" finished-at="2020-12-18T04:42:43Z">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="FAIL" signature="viewtimesheet()[pri:2, instance:testcases.Login_testcase1@3ecd23d9]" name="viewtimesheet" duration-ms="48" started-at="2020-12-11T15:06:46Z" description="DP-61" finished-at="2020-12-11T15:06:46Z">
+        <test-method status="FAIL" signature="viewtimesheet()[pri:2, instance:testcases.Login_testcase1@3ecd23d9]" name="viewtimesheet" duration-ms="50" started-at="2020-12-18T04:42:43Z" description="DP-61" finished-at="2020-12-18T04:42:43Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[//*[@id="root"]//tbody/tr[1]/td[3]/a// Element not found]]>
@@ -58,7 +58,7 @@
 at org.testng.Assert.fail(Assert.java:96)
 at base_class.Test_class.getlocator(Test_class.java:76)
 at PageObject.HomePage.clickOnViewTimesheetLink(HomePage.java:8)
-at testcases.Login_testcase1.viewtimesheet(Login_testcase1.java:47)
+at testcases.Login_testcase1.viewtimesheet(Login_testcase1.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewtimesheet -->
-        <test-method status="PASS" signature="writeResult(org.testng.ITestResult)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="writeResult" is-config="true" duration-ms="27571" started-at="2020-12-11T15:06:46Z" finished-at="2020-12-11T15:07:13Z">
+        <test-method status="PASS" signature="writeResult(org.testng.ITestResult)[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="writeResult" is-config="true" duration-ms="82466" started-at="2020-12-18T04:42:43Z" finished-at="2020-12-18T04:44:05Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- writeResult -->
-        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="TeardownTest" is-config="true" duration-ms="0" started-at="2020-12-11T15:07:13Z" finished-at="2020-12-11T15:07:13Z">
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:testcases.Login_testcase1@3ecd23d9]" name="TeardownTest" is-config="true" duration-ms="0" started-at="2020-12-18T04:44:05Z" finished-at="2020-12-18T04:44:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TeardownTest -->
